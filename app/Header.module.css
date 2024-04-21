@@ -1,0 +1,45 @@
+.headerSection {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: pink;
+    padding: 1%;
+}
+
+@media screen and (max-width: 900px) {
+    #logo {
+        height: 4vh;
+        width: auto;
+        margin-left: 2vw;
+    }
+
+    #headingText {
+        margin-left: 1vw;
+    }
+
+    #subHeadingText {
+        margin-left: auto;
+        margin-right: 2vw;
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (min-width: 901px) {
+    #logo {
+        height: 6vh;
+        width: auto;
+        margin-left: 2vw;
+    }
+
+    #headingText {
+        font-size: xx-large;
+        margin-left: 1vw;
+    }
+
+    #subHeadingText {
+        margin-left: auto;
+        margin-right: 2vw;
+        font-size: 1.25rem;
+        font-weight: bold;
+    }
+}

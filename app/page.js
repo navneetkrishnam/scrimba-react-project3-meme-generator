@@ -1,5 +1,11 @@
-export default function HomePage() {
+'use client'
+
+import React from "react"
+
+import Header from "./Header"
+
+export default function App() {
     return (
-        <h1>Welcome to the Beginning</h1>
+        <Header />
     )
 }
